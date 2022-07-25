@@ -24,15 +24,12 @@ struct ContentView_Previews: PreviewProvider {
 
 struct HomeScreen: View {
     var body: some View {
-        NavigationView{
-            VStack(alignment: .leading){
-    //            HorizonalMostActivityTagList()
-                DailyActivationView()
-                Spacer()
-                ChatView()
-            }
+        VStack(alignment: .leading){
+//            HorizonalMostActivityTagList()
+            DailyActivationView()
+            Spacer()
+            ChatView()
         }
-        
     }
 }
 
